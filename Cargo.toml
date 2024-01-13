@@ -1,0 +1,18 @@
+[package]
+name = "rizzler_rust_and_furious"
+version = "0.1.4"
+edition = "2021"
+owners=["Rust And Furious"]
+authors = ["Sara Francavilla, Vincenzo Coppola, Nivriti Raisingh, Antonio Persico"]
+documentation = "https://github.com/n1vr1t1/rizzler_rust_and_furious/tree/main"
+description= "Rizzler is a modified versions of the interfaces inside the common crate. This tool gives you irresistible pick up lines to rizz you and hopefully amuse the professor"
+
+# as read from the ".cargo/config.toml" file
+
+# See more keys and their definitions at https://doc.rust-lang.org/cargo/reference/manifest.html
+
+[dependencies]
+rand = "0.8.5"
+strum = { version = "0.25.0", features = [] }
+colored = "2.0.4"
+robotics_lib = {version="0.1.21", registry = "kellnr"}
